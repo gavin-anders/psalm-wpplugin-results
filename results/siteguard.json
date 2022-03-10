@@ -1,0 +1,320 @@
+[
+   {
+      "severity":"error",
+      "line_from":65,
+      "line_to":65,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_operation',      $_POST['filter_operation'],      time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_operation']",
+      "from":2726,
+      "to":2752,
+      "snippet_from":2672,
+      "snippet_to":2784,
+      "column_from":55,
+      "column_to":81,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":65,
+            "line_to":65,
+            "label":"$_POST['filter_operation']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_operation',      $_POST['filter_operation'],      time( ) + 60 * 60, '\/' );",
+            "from":2726,
+            "to":2732,
+            "snippet_from":2672,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":65,
+            "line_to":65,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_operation',      $_POST['filter_operation'],      time( ) + 60 * 60, '\/' );",
+            "from":2726,
+            "to":2752,
+            "snippet_from":2672,
+            "column_from":55,
+            "column_to":81
+         }
+      ],
+      "other_references":null
+   },
+   {
+      "severity":"error",
+      "line_from":68,
+      "line_to":68,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_type',           $_POST['filter_type'],           time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_type']",
+      "from":2887,
+      "to":2908,
+      "snippet_from":2833,
+      "snippet_to":2945,
+      "column_from":55,
+      "column_to":76,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":68,
+            "line_to":68,
+            "label":"$_POST['filter_type']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_type',           $_POST['filter_type'],           time( ) + 60 * 60, '\/' );",
+            "from":2887,
+            "to":2893,
+            "snippet_from":2833,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":68,
+            "line_to":68,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_type',           $_POST['filter_type'],           time( ) + 60 * 60, '\/' );",
+            "from":2887,
+            "to":2908,
+            "snippet_from":2833,
+            "column_from":55,
+            "column_to":76
+         }
+      ],
+      "other_references":null
+   },
+   {
+      "severity":"error",
+      "line_from":71,
+      "line_to":71,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name',     $_POST['filter_login_name'],     time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_login_name']",
+      "from":3054,
+      "to":3081,
+      "snippet_from":3000,
+      "snippet_to":3112,
+      "column_from":55,
+      "column_to":82,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":71,
+            "line_to":71,
+            "label":"$_POST['filter_login_name']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name',     $_POST['filter_login_name'],     time( ) + 60 * 60, '\/' );",
+            "from":3054,
+            "to":3060,
+            "snippet_from":3000,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":71,
+            "line_to":71,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name',     $_POST['filter_login_name'],     time( ) + 60 * 60, '\/' );",
+            "from":3054,
+            "to":3081,
+            "snippet_from":3000,
+            "column_from":55,
+            "column_to":82
+         }
+      ],
+      "other_references":null
+   },
+   {
+      "severity":"error",
+      "line_from":74,
+      "line_to":74,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address',     $_POST['filter_ip_address'],     time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_ip_address']",
+      "from":3221,
+      "to":3248,
+      "snippet_from":3167,
+      "snippet_to":3279,
+      "column_from":55,
+      "column_to":82,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":74,
+            "line_to":74,
+            "label":"$_POST['filter_ip_address']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address',     $_POST['filter_ip_address'],     time( ) + 60 * 60, '\/' );",
+            "from":3221,
+            "to":3227,
+            "snippet_from":3167,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":74,
+            "line_to":74,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address',     $_POST['filter_ip_address'],     time( ) + 60 * 60, '\/' );",
+            "from":3221,
+            "to":3248,
+            "snippet_from":3167,
+            "column_from":55,
+            "column_to":82
+         }
+      ],
+      "other_references":null
+   },
+   {
+      "severity":"error",
+      "line_from":77,
+      "line_to":77,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name_not', $_POST['filter_login_name_not'], time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_login_name_not']",
+      "from":3392,
+      "to":3423,
+      "snippet_from":3338,
+      "snippet_to":3450,
+      "column_from":55,
+      "column_to":86,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":77,
+            "line_to":77,
+            "label":"$_POST['filter_login_name_not']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name_not', $_POST['filter_login_name_not'], time( ) + 60 * 60, '\/' );",
+            "from":3392,
+            "to":3398,
+            "snippet_from":3338,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":77,
+            "line_to":77,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_login_name_not', $_POST['filter_login_name_not'], time( ) + 60 * 60, '\/' );",
+            "from":3392,
+            "to":3423,
+            "snippet_from":3338,
+            "column_from":55,
+            "column_to":86
+         }
+      ],
+      "other_references":null
+   },
+   {
+      "severity":"error",
+      "line_from":80,
+      "line_to":80,
+      "type":"TaintedCookie",
+      "message":"Detected tainted cookie",
+      "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+      "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address_not', $_POST['filter_ip_address_not'], time( ) + 60 * 60, '\/' );",
+      "selected_text":"$_POST['filter_ip_address_not']",
+      "from":3563,
+      "to":3594,
+      "snippet_from":3509,
+      "snippet_to":3621,
+      "column_from":55,
+      "column_to":86,
+      "error_level":-2,
+      "shortcode":257,
+      "link":"https:\/\/psalm.dev\/257",
+      "taint_trace":[
+         {
+            "label":"$_POST",
+            "entry_path_type":""
+         },
+         {
+            "line_from":80,
+            "line_to":80,
+            "label":"$_POST['filter_ip_address_not']",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address_not', $_POST['filter_ip_address_not'], time( ) + 60 * 60, '\/' );",
+            "from":3563,
+            "to":3569,
+            "snippet_from":3509,
+            "column_from":55,
+            "column_to":61
+         },
+         {
+            "line_from":80,
+            "line_to":80,
+            "label":"call to setcookie",
+            "file_name":"..\/..\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "file_path":"\/tmp\/plugins\/siteguard.1.6.0\/siteguard\/admin\/siteguard-menu-login-history.php",
+            "snippet":"\t\t\t\tsetcookie( 'siteguard_log_filter_ip_address_not', $_POST['filter_ip_address_not'], time( ) + 60 * 60, '\/' );",
+            "from":3563,
+            "to":3594,
+            "snippet_from":3509,
+            "column_from":55,
+            "column_to":86
+         }
+      ],
+      "other_references":null
+   }
+]
